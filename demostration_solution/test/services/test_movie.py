@@ -13,8 +13,6 @@ def movie_dao():
     :return: подготовленный экземпляр класса MovieDAO.
     """
     movie_dao = MovieDAO(None)
-    Director()
-    Genre()
 
     movie1 = Movie(id=1, title= "movie1", year=2000)
     movie2 = Movie(id=2, title= "movie2", year=2001)
